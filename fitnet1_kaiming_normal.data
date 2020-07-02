@@ -1,0 +1,112 @@
+[1, 12000] loss: 2.0915 iteration     1
+[2, 12000] loss: 2.0203 iteration     2
+[3, 12000] loss: 1.9849 iteration     3
+[4, 12000] loss: 1.9562 iteration     4
+[5, 12000] loss: 1.9392 iteration     5
+[6, 12000] loss: 1.9270 iteration     6
+[7, 12000] loss: 1.9124 iteration     7
+[8, 12000] loss: 1.9091 iteration     8
+[9, 12000] loss: 1.9041 iteration     9
+[10, 12000] loss: 1.8956 iteration    10
+[11, 12000] loss: 1.8926 iteration    11
+[12, 12000] loss: 1.8886 iteration    12
+[13, 12000] loss: 1.8837 iteration    13
+[14, 12000] loss: 1.8790 iteration    14
+[15, 12000] loss: 1.8744 iteration    15
+[16, 12000] loss: 1.8750 iteration    16
+[17, 12000] loss: 1.8715 iteration    17
+[18, 12000] loss: 1.8696 iteration    18
+[19, 12000] loss: 1.8638 iteration    19
+[20, 12000] loss: 1.8628 iteration    20
+[21, 12000] loss: 1.8617 iteration    21
+[22, 12000] loss: 1.8596 iteration    22
+[23, 12000] loss: 1.8572 iteration    23
+[24, 12000] loss: 1.8561 iteration    24
+[25, 12000] loss: 1.8598 iteration    25
+[26, 12000] loss: 1.8559 iteration    26
+[27, 12000] loss: 1.8514 iteration    27
+[28, 12000] loss: 1.8485 iteration    28
+[29, 12000] loss: 1.8456 iteration    29
+[30, 12000] loss: 1.8476 iteration    30
+[31, 12000] loss: 1.8447 iteration    31
+[32, 12000] loss: 1.8411 iteration    32
+[33, 12000] loss: 1.8431 iteration    33
+[34, 12000] loss: 1.8412 iteration    34
+[35, 12000] loss: 1.8373 iteration    35
+[36, 12000] loss: 1.8410 iteration    36
+[37, 12000] loss: 1.8379 iteration    37
+[38, 12000] loss: 1.8380 iteration    38
+[39, 12000] loss: 1.8400 iteration    39
+[40, 12000] loss: 1.8413 iteration    40
+[41, 12000] loss: 1.8342 iteration    41
+[42, 12000] loss: 1.8358 iteration    42
+[43, 12000] loss: 1.8359 iteration    43
+[44, 12000] loss: 1.8358 iteration    44
+[45, 12000] loss: 1.8341 iteration    45
+[46, 12000] loss: 1.8330 iteration    46
+[47, 12000] loss: 1.8323 iteration    47
+[48, 12000] loss: 1.8321 iteration    48
+[49, 12000] loss: 1.8316 iteration    49
+[50, 12000] loss: 1.8323 iteration    50
+[51, 12000] loss: 1.8318 iteration    51
+[52, 12000] loss: 1.8339 iteration    52
+[53, 12000] loss: 1.8319 iteration    53
+[54, 12000] loss: 1.8302 iteration    54
+[55, 12000] loss: 1.8328 iteration    55
+[56, 12000] loss: 1.8338 iteration    56
+[57, 12000] loss: 1.8330 iteration    57
+[58, 12000] loss: 1.8327 iteration    58
+[59, 12000] loss: 1.8315 iteration    59
+[60, 12000] loss: 1.8331 iteration    60
+[61, 12000] loss: 1.8345 iteration    61
+[62, 12000] loss: 1.8366 iteration    62
+[63, 12000] loss: 1.8345 iteration    63
+[64, 12000] loss: 1.8345 iteration    64
+[65, 12000] loss: 1.8355 iteration    65
+[66, 12000] loss: 1.8390 iteration    66
+[67, 12000] loss: 1.8352 iteration    67
+[68, 12000] loss: 1.8422 iteration    68
+[69, 12000] loss: 1.8397 iteration    69
+[70, 12000] loss: 1.8398 iteration    70
+[71, 12000] loss: 1.8451 iteration    71
+[72, 12000] loss: 1.8491 iteration    72
+[73, 12000] loss: 1.8586 iteration    73
+[74, 12000] loss: 1.8745 iteration    74
+[75, 12000] loss: 2.0429 iteration    75
+[76, 12000] loss: 2.3307 iteration    76
+[77, 12000] loss: 2.3354 iteration    77
+[78, 12000] loss: 2.3469 iteration    78
+[79, 12000] loss: 2.3512 iteration    79
+[80, 12000] loss: 2.3495 iteration    80
+[81, 12000] loss: 2.3523 iteration    81
+[82, 12000] loss: 2.3515 iteration    82
+[83, 12000] loss: 2.3575 iteration    83
+[84, 12000] loss: 2.3570 iteration    84
+[85, 12000] loss: 2.3588 iteration    85
+[86, 12000] loss: 2.3584 iteration    86
+[87, 12000] loss: 2.3569 iteration    87
+[88, 12000] loss: 2.3563 iteration    88
+[89, 12000] loss: 2.3572 iteration    89
+[90, 12000] loss: 2.3570 iteration    90
+[91, 12000] loss: 2.3581 iteration    91
+[92, 12000] loss: 2.3579 iteration    92
+[93, 12000] loss: 2.3589 iteration    93
+[94, 12000] loss: 2.3590 iteration    94
+[95, 12000] loss: 2.3579 iteration    95
+[96, 12000] loss: 2.3578 iteration    96
+[97, 12000] loss: 2.3577 iteration    97
+[98, 12000] loss: 2.3588 iteration    98
+[99, 12000] loss: 2.3574 iteration    99
+[100, 12000] loss: 2.3565 iteration   100
+# Finished Training
+# Accuracy of the network on the 10000 test images: 8 %
+# Accuracy of plane :  0 %
+# Accuracy of   car :  1 %
+# Accuracy of  bird :  0 %
+# Accuracy of   cat :  0 %
+# Accuracy of  deer :  0 %
+# Accuracy of   dog :  1 %
+# Accuracy of  frog :  1 %
+# Accuracy of horse : 20 %
+# Accuracy of  ship :  1 %
+# Accuracy of truck : 63 %

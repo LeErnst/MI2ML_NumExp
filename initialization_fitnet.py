@@ -195,13 +195,13 @@ classes = ('plane', 'car', 'bird', 'cat',
 # get the network
 fitnet1 = FitNet_1()
 # initialize the model
-fitnet1.initialize_xavier_u()
+#fitnet1.initialize_xavier_u()
 
 #fitnet1.initialize_xavier_n()
 #
 #fitnet1.initialize_kaiming_u()
 #
-#fitnet1.initialize_kaiming_n()
+fitnet1.initialize_kaiming_n()
 
 #fitnet1.save_state_dict('./fitnet1.pt')
 #fitnet1.save_model('./fitnet1_model.ptr')
@@ -212,6 +212,7 @@ loss_func = torch.nn.CrossEntropyLoss()
 optimizer = optim.SGD(fitnet1.parameters(), lr=0.001, momentum=0.9)
 
 # train the network
+k = 0
 for epoch in range(100):  # loop over the dataset multiple times
 
     running_loss = 0.0
@@ -230,14 +231,15 @@ for epoch in range(100):  # loop over the dataset multiple times
 
         # print statistics
         running_loss += loss.item()
-        if i % 1000 == 999:    # print every 1000 mini-batches
-            print('[%d, %5d] loss: %.3f' %
-                  (epoch + 1, i + 1, running_loss / 1000))
+        if i % 12000 == 11999:    # print every 1000 mini-batches
+            k += 1
+            print('[%d, %5d] loss: %.4f iteration %5d' %
+                  (epoch + 1, i + 1, running_loss / 12000, k))
             running_loss = 0.0
 
 print('Finished Training')
 # save the model
-fitnet1.save_model('./fitnet1_trained_xavier_uniform.ptr')
+fitnet1.save_model('./fitnet1_trained_kaiming_normal.ptr')
 
 
 ############################### post processing ################################
@@ -253,7 +255,7 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
 print('Accuracy of the network on the 10000 test images: %d %%' % (
-    100 * correct / total))
+      100 * correct / total))
 
 
 # check the accuracy per class of the network
